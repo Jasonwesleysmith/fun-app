@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-size: 64px;
+  
 }
 
 .App-logo {
@@ -35,4 +37,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.crimson {
+  color: crimson;
+  
+  }
+
+.darkorange {
+  color:darkorange
+}
+
+.dodgerblue {
+  color: dodgerblue;
+}
+
+.green {
+  color: green;
+}
+
+button {
+  transition: font-size  600ms cubic-bezier(.29, 1.01, 1, -0.68);  
 }
